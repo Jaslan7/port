@@ -1,0 +1,230 @@
+@import "reset";
+
+#header {
+  padding: 15px 0;
+  background: #323232
+;
+
+  .header-general {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &__logo {
+      display: flex;
+      align-items: center;
+    }
+      &__text{
+        margin: 0 11px;
+        font-family: 'Roboto',sans-serif;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 20px;
+        line-height: 27px;
+        letter-spacing: -0.5px;
+        color: #DEDEDE;
+
+
+      }
+    &__title{
+      font-family: 'Roboto',sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 25px;
+      letter-spacing: -0.5px;
+      color: #DEDEDE;
+      margin: 0 10px;
+
+    }
+  }
+}
+
+#hi{
+  background: #292929;
+  padding-top: 120px;
+
+  .hi-general{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+
+    &__title{
+      font-family: 'Manrope',sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 64px;
+      line-height: 70px;
+      color: #DEDEDE;
+      margin-bottom: 15px;
+    }
+    &__desk{
+      font-family: 'Manrope',sans-serif;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 24px;
+      line-height: 36px;
+      color: #959595;
+      margin-bottom: 69px;
+    }
+    &__btn{
+      width: 400px;
+      height: 64px;
+      background: #9D9D9D;
+      margin-bottom: 173px;
+    }
+    &__text{
+      font-family: 'Manrope',sans-serif;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 18px;
+      line-height: 25px;
+      color: #FFFFFF;
+    }
+    &__stel{
+      display: flex;
+      align-items: center;
+    }
+    &__desk1{
+      font-family: 'Manrope',sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 16px;
+      text-transform: uppercase;
+      color: #DEDEDE;
+      margin: 0 15px;
+    }
+  }
+}
+
+#inver{
+  background: #292929;
+  padding-top: 160px;
+.inver-general{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+ &__pic{
+   margin-top: -200px;
+
+ }
+
+}
+}
+
+#visual{
+  background: #292929;
+  padding-top: 100px;
+
+  .visual-general{
+
+    &__title{
+      font-family: 'Manrope',sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 36px;
+      line-height: 49px;
+      text-align: center;
+      color: #DEDEDE;
+      margin-bottom: 50px;
+    }
+    &__img{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+    }
+  }
+}
+
+
+#personal{
+  background: #292929;
+  padding-top: 240px;
+
+  .personal-general{
+
+
+    &__title{
+      font-family: 'Manrope',sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 36px;
+      line-height: 49px;
+      text-align: center;
+      color: #DEDEDE;
+      margin-bottom: 66px;
+    }
+    &__img{
+      display: flex;
+      justify-content: space-between;
+
+    }
+  }
+}
+
+#contact{
+  background: #292929;
+  padding-top:240px ;
+  .contact-general{
+
+    &__title{
+      font-family: 'Manrope',sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 36px;
+      line-height: 49px;
+      text-align: center;
+      color: #DEDEDE;
+      margin-bottom: 24px;
+    }
+    &__desk{
+      font-family: 'Manrope',sans-serif;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 24px;
+      line-height: 38px;
+      text-align: center;
+      color: #959595;
+      margin-bottom: 46px;
+    }
+    &__btn{
+      width: 400px;
+      height: 64px;
+      background: #9D9D9D;
+      margin-left: 370px;
+    }
+    &__text{
+      font-family: 'Manrope',sans-serif;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 18px;
+      line-height: 25px;
+      color: #FFFFFF;
+    }
+  }
+}
+
+#made{
+  background: #292929;
+  padding-top: 200px;
+  .made-general{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &__title{
+      font-family: 'Manrope',sans-serif;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 36px;
+      color: #959595;
+    }
+    &__color{
+      color: white;
+    }
+  }
+}
